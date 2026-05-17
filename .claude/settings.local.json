@@ -15,7 +15,8 @@
       "Bash(set -e)",
       "Bash(cp /Users/fabienhuet/Downloads/s__TRACKED_VAR__.mp3 /Users/fabienhuet/Projects/molar/Molar/Sounds/s__TRACKED_VAR__.mp3)",
       "Bash(rtk grep *)",
-      "Bash(sips *)"
+      "Bash(sips *)",
+      "Bash(rtk git *)"
     ]
   }
 }
