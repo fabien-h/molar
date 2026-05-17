@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -version)",
+      "Bash(xcodegen generate *)",
+      "Bash(xcodebuild -list)",
+      "Bash(xcrun simctl *)",
+      "Bash(xcodebuild -scheme Molar -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -configuration Debug build CODE_SIGNING_ALLOWED=NO)",
+      "Bash(rtk ls *)",
+      "Bash(rtk read *)",
+      "Bash(sips -g pixelWidth -g pixelHeight -g hasAlpha /Users/fabienhuet/Projects/molar/pictures/icon.png)",
+      "Bash(python3 -c \"import PIL; print\\('PIL ok', PIL.__version__\\)\")",
+      "Bash(python3 *)",
+      "Bash(sips -g pixelWidth -g pixelHeight -g hasAlpha /Users/fabienhuet/Projects/molar/pictures/btn_play.png)",
+      "Bash(set -e)",
+      "Bash(cp /Users/fabienhuet/Downloads/s__TRACKED_VAR__.mp3 /Users/fabienhuet/Projects/molar/Molar/Sounds/s__TRACKED_VAR__.mp3)",
+      "Bash(rtk grep *)",
+      "Bash(sips *)"
+    ]
+  }
+}
